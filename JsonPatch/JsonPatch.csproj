@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0fdc0a37-8658-4d0f-afb1-0c5da68fc158</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="!Samples\Add.json" />
+    <Content Remove="!Samples\Copy.json" />
+    <Content Remove="!Samples\Move.json" />
+    <Content Remove="!Samples\Remove.json" />
+    <Content Remove="!Samples\Replace.json" />
+    <Content Remove="!Samples\Test.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="!Samples\Move.json" />
+    <None Include="!Samples\Test.json" />
+    <None Include="!Samples\Remove.json" />
+    <None Include="!Samples\Copy.json" />
+    <None Include="!Samples\Add.json" />
+    <None Include="!Samples\Replace.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.22" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+
+</Project>

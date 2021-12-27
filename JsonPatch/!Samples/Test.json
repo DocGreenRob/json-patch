@@ -1,0 +1,40 @@
+﻿[
+	{
+		"op": "Update",
+		"path": "student",
+		"key": 1,
+		"values": [
+			{
+				"name": "Name",
+				"value": "Rupesh"
+			},
+			{
+				"name": "Email",
+				"value": "Rupesh@gmail.com"
+			},
+			{
+				"name": "Id",
+				"value": "1"
+			}
+		]
+	},
+	{
+		"op": "Update",
+		"path": "student",
+		"key": 2,
+		"values": [
+			{
+				"name": "Name",
+				"value": "Rupesh"
+			},
+			{
+				"name": "Email",
+				"value": "Rupesh@gmail.com"
+			},
+			{
+				"name": "Id",
+				"value": "1"
+			}
+		]
+	}
+]
