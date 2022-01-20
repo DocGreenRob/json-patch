@@ -1,32 +1,12 @@
-﻿[
+[
 	{
-		"op": "Replace",
-		"path": "student",
-		"key": 1,
-		"values": [
-			{
-				"name": "Name",
-				"value": "Johnathan"
-			},
-			{
-				"name": "Email",
-				"value": "johnathan@gmail.com"
-			}
-		]
+		"op": "replace",
+		"path": "/Name",
+		"value": "Jane Smith"
 	},
-	{
-		"op": "Replace",
-		"path": "student",
-		"key": 2,
-		"values": [
-			{
-				"name": "Name",
-				"value": "Sarah"
-			},
-			{
-				"name": "Email",
-				"value": "sarah@gmail.com"
-			}
-		]
+    {
+		"op": "replace",
+		"path": "/FieldOfStudy",
+		"value": "Science"
 	}
 ]
